@@ -1,0 +1,679 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    /*border: 1px solid black;
+    margin: 10px;*/
+}
+
+body
+{
+    margin: 0px;
+    padding: 0;
+}
+
+.first-part
+{
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 90px;
+}
+
+.puppy-logo
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 30px 60px 0px 0px;
+    float: left;
+}
+
+#puppy-run-one
+{
+    background-image: url(Imagenes/Fondo1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.puppy-inicio
+{
+    display: inline-block;
+    
+    margin-top: 15px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0px;
+}
+
+li
+{
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-right: 30px;
+}
+
+.option
+{
+    text-decoration-line: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(134,184,183);
+    align-self: center
+}
+
+.option:hover
+{
+    color: crimson;
+    border-bottom: 3px solid crimson;
+}
+
+.search
+{
+    background-color: rgb(221, 221, 221);
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.title
+{
+    width: 60%;
+    font-size: 25px;
+    color: rgb(98, 165, 164);
+}
+
+.empresa
+{
+    width: 470px;
+}
+
+.title-service
+{
+    font-weight: 700;
+}
+
+.contrato, .paseador, .comunidad
+{
+    display: inline-block;
+    width: 200px;
+    text-align: justify;
+    margin-right: 3%; 
+}
+
+.btn-service
+{
+    background-color: crimson;
+    color: white;
+    letter-spacing: 3px;
+    padding: 7px 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.puppy-logo-2
+{
+    width: 0;
+    height: 0;
+}
+
+/*----------Segunda Parte-----------*/
+.first-part-two
+{
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    width: 65%;
+}
+
+#puppy-run-two
+{
+    background-image: url(Imagenes/Registro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.form-title
+{
+    font-size: 55px;
+    color: rgb(98, 165, 164);
+}
+
+.form-text
+{
+    font-size: 25px;
+    padding-left: 40px; 
+    width: 85%;
+}
+
+.form
+{
+    padding-left: 40px;
+    /*width: 85%;*/
+}
+
+.form-name
+{
+    font-size: 12px;
+}
+
+.form-input-100
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid darkgray;
+}
+
+.form-input-50
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid darkgray;
+}
+
+.form-llenar-100
+{
+    width: 65%;
+    line-height: 1.5;
+}
+
+.form-llenar-50
+{
+    width: 32.2%;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.captcha
+{
+    width: 85%;
+}
+
+.img-captcha
+{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: url(Imagenes/captcha.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+}
+
+.llenar-captcha
+{
+    display: inline-block;
+}
+
+.cod-captcha
+{
+    height: 40px;
+    margin-right: 100px;
+}
+
+.btn-captcha
+{
+    background-color: crimson;
+    color: white;
+    padding: 5px 35px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.registrarse
+{
+    margin-left: 50px;
+}
+
+.btn-registrar
+{
+    padding: 10px 75px;
+    background-color: rgba(134,184,183);
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+    transition: border 0.5s;
+    transition: background 0.5s;
+}
+
+.btn-registrar:hover
+{
+    background-color: rgba(247, 247, 247);
+    color: crimson;
+    border-color: rgba(247, 247, 247);
+    border-bottom: 5px solid crimson;
+}
+
+.btn-ingresar
+{
+    padding: 10px 75px;
+    background-color: rgba(134,184,183);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-ingresar:hover
+{
+    background-color: rgba(247, 247, 247);
+    color: crimson;
+    border-color: rgba(247, 247, 247);
+    border-bottom: 5px solid crimson;
+}
+
+.registrarse a
+{
+    text-decoration-line: none;
+}
+
+/*--------Tercera Parte----------*/
+.first-part-three
+{
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    width: 65%;
+}
+
+#puppy-run-three
+{
+    background-image: url(Imagenes/Registro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.form-title
+{
+    font-size: 55px;
+    color: rgb(98, 165, 164);
+}
+
+.form-text
+{
+    font-size: 25px;
+    padding-left: 40px; 
+    width: 85%;
+}
+
+.form
+{
+    padding-left: 40px;
+}
+
+.form-name
+{
+    font-size: 12px;
+}
+
+.form-input-100
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid darkgray;
+}
+
+.form-input-50
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid darkgray;
+}
+
+.form-llenar-100
+{
+    width: 65%;
+    line-height: 1.8;
+}
+
+.form-llenar-50
+{
+    width: 32.2%;
+    display: inline-block;
+    line-height: 1.8;
+}
+
+.captcha
+{
+    width: 85%;
+}
+
+.img-captcha
+{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: url(Imagenes/captcha.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    margin-right: 10px;
+}
+
+.llenar-captcha
+{
+    display: inline-block;
+}
+
+.cod-captcha
+{
+    height: 40px;
+    margin-right: 110px;
+}
+
+.btn-captcha
+{
+    background-color: crimson;
+    color: white;
+    padding: 5px 35px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.registrarse
+{
+    margin-left: 50px;
+}
+
+.btn-registrar
+{
+    padding: 5px 75px;
+    background-color: rgba(247, 247, 247);
+    color: crimson;
+    border-bottom: 5px solid crimson;
+    cursor: pointer;
+}
+
+.btn-ingresar
+{
+    padding: 5px 75px;
+    background-color: rgba(134,184,183);
+    color: white;
+    border: 5px solid rgba(134,184,183);
+    cursor: pointer;
+}
+
+/*Cuarta Parte*/
+.first-part-four
+{
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 120px;
+    width: 65%;
+}
+
+#puppy-run-four
+{
+    background-image: url(Imagenes/descarga.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.form-title
+{
+    font-size: 45px;
+    color: rgb(98, 165, 164);
+}
+
+.cuadro-1
+{    
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.cuadro-2
+{
+    float: right;
+    text-align: end;
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.cuadro-3
+{
+    width: 55%;
+}
+
+.cuadro-1 span, .cuadro-2 span, .cuadro-3 span
+{
+    font-weight: 700;
+    color: crimson;
+}
+
+.prueba
+{
+    font-weight: 700;
+    line-height: 0.5;
+    margin-left: 100px;
+}
+
+.prueba p
+{
+    margin: 0 0 0 45px;
+}
+
+.prueba span
+{
+    font-size: 25px;
+    color: crimson;
+}
+
+.download p
+{
+    margin: 0 0 0 160px;
+}
+
+.download img
+{
+    margin: 0 0 0 145px;
+    width: 220px;
+    height: 80px;
+}
+
+/*-----Tercera Parte--------*/
+.first-part-five
+{
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 120px;
+    width: 65%;
+}
+
+#puppy-run-five
+{
+    background-image: url(Imagenes/descarga.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.botones
+{
+    padding-left: 40px;
+}
+
+.btn-sugerencia, .btn-reclamos
+{
+    border: 1px solid transparent;
+    background-color: crimson;
+    color: white;
+    padding: 10px 75px;
+}
+
+.btn-reclamos
+{
+    margin-left: 20%;
+}
+
+.form-input-101
+{
+    width: 100%;
+    height: 90px;
+    border-radius: 7px;
+    border: 1px solid darkgray;
+}
+
+.btn-comunidad
+{
+    border: 1px solid transparent;
+    padding: 5px 75px;
+    background-color: rgba(134,184,183);
+    color: white;
+    border: 5px solid rgba(134,184,183);
+    cursor: pointer;
+}
+
+.btn-comunidad:hover
+{
+    background-color: rgba(247, 247, 247);
+    color: crimson;
+    border-color: transparent;
+    border-bottom: 5px solid crimson;
+}
+
+/*
+-------------Método Responsive----------------
+*/
+
+@media screen and (max-width: 790px)
+{
+    /*Primera Parte*/
+    .puppy-inicio
+    {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    
+    .description
+    {
+        padding-left: 5px;
+        background-color: rgb(222, 222, 222);
+        width: 90%;
+    }
+    
+    .empresa
+    {
+        width: 90%;
+        padding-bottom: 5px;    
+    }
+    
+    .puppy-logo
+    {
+        width: 0;
+        height: 0;
+    }
+    
+    .title
+    {
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .puppy-logo-2
+    {
+        margin-top: 10px;
+        width: 30%;
+        height: 120px;
+        display: inline-block;
+    }
+    
+    .contrato, .paseador, .comunidad
+    {
+        width: 90%;
+        display: block;    
+    }
+    
+    .btn-service
+    {
+        display: block;
+    }
+    
+    /*Segunda Parte*/
+    
+    .form, .form-text
+    {
+        padding: 0;
+    }
+    
+    .form-llenar-50
+    {
+        width: 100%;
+    }
+    
+    .form-llenar-100
+    {
+        width: 100%;
+    }
+    
+    .registrarse
+    {
+        margin: 0;
+    }
+    
+    .btn-registrar, .btn-ingresar
+    {
+        padding: 10px 16px;
+    }
+    
+    /*Cuarta Parte*/
+    
+    #puppy-run-four .cuadro-1
+    {
+        padding: 0;
+        display: inline-block;
+    }
+    
+    #puppy-run-four .cuadro-2
+    {
+        margin: 0;
+        padding: 30px 0px;
+        text-align: end;
+        display: inline-block;
+    }
+    
+    #puppy-run-four .cuadro-3
+    {
+        margin: 0;
+        text-align: left;
+        display: inline-block;
+    }
+    
+    .prueba
+    {
+        margin: 0;
+        text-align: justify;
+        line-height: 1;
+    }
+    
+    .download
+    {
+        margin: 0;
+        text-align: left;
+        line-height: 1;
+        float: right;
+    }
+    
+    .botones
+    {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 905px)
+{
+    .btn-sugerencia, .btn-reclamos
+    {
+        padding: 10px 20px;
+    }
+}
